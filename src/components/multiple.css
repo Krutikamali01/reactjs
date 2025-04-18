@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default padding and margin */
+body, h1, h2, h3, h4, h5, h6,
+p, ul, ol, li, figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set base font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Lists */
+ul, ol {
+    list-style: none;
+}
+
+/* Media elements */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-position: cover;
+}
+
+/* Form elements */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Button reset */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Container utility */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid;
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.profile {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(170, 168, 168);
+    padding: 1rem;
+}
+
+.buttons a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    margin: 0.6rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+p {
+    margin: 1rem;
+}
